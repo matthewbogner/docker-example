@@ -14,7 +14,8 @@ Setup
         eval "$(docker-machine env default)"
 
 * Setup gradle
-    * brew update && brew install gradle
+    * brew update
+    * brew install gradle
 
 Build
 =====
@@ -23,6 +24,6 @@ gradle distDocker
 
 Run
 ===
-docker images    # find the image id
-docker run -p 4567:4567 <imageid>
-curl localhost:4567/hello
+* docker images    # find the image id
+* docker run -p 4567:4567 <imageid>
+* curl localhost:4567/hello
