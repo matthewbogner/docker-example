@@ -10,9 +10,9 @@ Setup
     * docker-machine create --driver virtualbox default
     * docker-machine ls
     * modify your .profile to include:
-        
+
         eval "$(docker-machine env default)"
-        
+
 * Setup gradle
     * brew update && brew install gradle
 
