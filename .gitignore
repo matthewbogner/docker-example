@@ -1,0 +1,15 @@
+.gradle
+build/
+*.iml
+*.ipr
+*.class
+.DS_Store
+*.jar
+*.war
+*.ear
+*.log
+*.log.gz
+target/
+*.pyc
+**/.idea
+config-local.yml
